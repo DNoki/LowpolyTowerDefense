@@ -1,0 +1,4 @@
+[Debug]
+InitialMoney=20000
+CenterHPLimit=10000
+StartRound=24

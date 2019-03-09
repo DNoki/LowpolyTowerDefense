@@ -5,6 +5,11 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 
+#Custom
+Assets/Models
+Assets/TextMeshPro
+.exr
+
 # Visual Studio cache directory
 .vs/
 

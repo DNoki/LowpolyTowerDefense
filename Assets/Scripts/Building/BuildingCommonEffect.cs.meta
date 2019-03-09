@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: df18e5f2c11fcc44fbc09f91c9278798
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - areaRenderer: {instanceID: 0}
+  - boundaryRender: {instanceID: 0}
+  - selfTex: {instanceID: 0}
+  - obstructTex: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

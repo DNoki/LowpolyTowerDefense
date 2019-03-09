@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1171776446259028}
+  m_IsPrefabAsset: 1
+--- !u!1 &1171776446259028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4243987474774334}
+  - component: {fileID: 114660660287690566}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4243987474774334
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1171776446259028}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114660660287690566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1171776446259028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a6edb954af6753478849d1e64c05256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audios:
+  - Name: BGM1
+    Clip: {fileID: 8300000, guid: 7e44ac187d02a7a4c8e6858b6c55bd1b, type: 3}
+    AMG: {fileID: 243362987491597264, guid: 0b5aea56bdc4d454ebbab880bb17014d, type: 2}
+    Pitch: 1
+    Volume: 0.5
+    IsLoop: 1
+  - Name: Upgrade1
+    Clip: {fileID: 8300000, guid: 10cdf5f83dc9c6a4e83d1973ea32f321, type: 3}
+    AMG: {fileID: 243574203124466448, guid: 0b5aea56bdc4d454ebbab880bb17014d, type: 2}
+    Pitch: 1
+    Volume: 0.6
+    IsLoop: 0
+  - Name: Upgrade2
+    Clip: {fileID: 8300000, guid: 51bd1b80c3ac5c94885d5701f05ad6a3, type: 3}
+    AMG: {fileID: 243574203124466448, guid: 0b5aea56bdc4d454ebbab880bb17014d, type: 2}
+    Pitch: 1
+    Volume: 1
+    IsLoop: 0
+  - Name: LoseBG
+    Clip: {fileID: 8300000, guid: 2ec4506e2a148eb48b469ff033d1cf60, type: 3}
+    AMG: {fileID: 243574203124466448, guid: 0b5aea56bdc4d454ebbab880bb17014d, type: 2}
+    Pitch: 1
+    Volume: 0.6
+    IsLoop: 0
+  - Name: Lose1
+    Clip: {fileID: 8300000, guid: a4740b19edad8b446826f1fb56bbcbf0, type: 3}
+    AMG: {fileID: 243574203124466448, guid: 0b5aea56bdc4d454ebbab880bb17014d, type: 2}
+    Pitch: 1
+    Volume: 1
+    IsLoop: 0
+  - Name: Lose2
+    Clip: {fileID: 8300000, guid: bb7db669c54e275449c9644d11820222, type: 3}
+    AMG: {fileID: 243574203124466448, guid: 0b5aea56bdc4d454ebbab880bb17014d, type: 2}
+    Pitch: 1
+    Volume: 1
+    IsLoop: 0
+  - Name: Win
+    Clip: {fileID: 8300000, guid: 84c17eedc76e5754ca0de76812c569fd, type: 3}
+    AMG: {fileID: 243574203124466448, guid: 0b5aea56bdc4d454ebbab880bb17014d, type: 2}
+    Pitch: 1
+    Volume: 1
+    IsLoop: 0
+  - Name: Sell
+    Clip: {fileID: 8300000, guid: c7b0c73275d300f46ac0523f7cf90025, type: 3}
+    AMG: {fileID: 243574203124466448, guid: 0b5aea56bdc4d454ebbab880bb17014d, type: 2}
+    Pitch: 1
+    Volume: 1
+    IsLoop: 0
+  - Name: Building
+    Clip: {fileID: 8300000, guid: a92b96869c5a5fe4187b76900f4b145d, type: 3}
+    AMG: {fileID: 243574203124466448, guid: 0b5aea56bdc4d454ebbab880bb17014d, type: 2}
+    Pitch: 1
+    Volume: 1
+    IsLoop: 0
+  - Name: Click1
+    Clip: {fileID: 8300000, guid: 69d77343550136248a2993fdc9ef37a1, type: 3}
+    AMG: {fileID: 243574203124466448, guid: 0b5aea56bdc4d454ebbab880bb17014d, type: 2}
+    Pitch: 1
+    Volume: 1
+    IsLoop: 0
+  - Name: Click2
+    Clip: {fileID: 8300000, guid: b9bdb1d8eb1542e49a8e9ad173a048a6, type: 3}
+    AMG: {fileID: 243574203124466448, guid: 0b5aea56bdc4d454ebbab880bb17014d, type: 2}
+    Pitch: 1
+    Volume: 1
+    IsLoop: 0
+  - Name: DogDie
+    Clip: {fileID: 8300000, guid: 950835ca9a89042489bdf817e07e26a6, type: 3}
+    AMG: {fileID: 243574203124466448, guid: 0b5aea56bdc4d454ebbab880bb17014d, type: 2}
+    Pitch: 1
+    Volume: 1
+    IsLoop: 0
+  - Name: LionDie
+    Clip: {fileID: 8300000, guid: a549f011b1253af41b548900fe4d2802, type: 3}
+    AMG: {fileID: 243574203124466448, guid: 0b5aea56bdc4d454ebbab880bb17014d, type: 2}
+    Pitch: 1
+    Volume: 1
+    IsLoop: 0
